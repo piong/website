@@ -40,34 +40,6 @@
     </item>
     
     <item>
-      <title>This Post will be Abandoned Soon</title>
-      <link>/post/this-post-will-be-abandoned-soon/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/post/this-post-will-be-abandoned-soon/</guid>
-      <description>Trying out a ggplot graph.
-ChickWeight %&amp;gt;% as.data.frame(.) %&amp;gt;%ggplot() +geom_line(aes(Time, weight, color = Chick)) +theme_minimal() +ylim(0,200)To create a new post in blogdown, use this code:
-# new_post(&amp;quot;Title of post&amp;quot;, ext = &amp;quot;.Rmd&amp;quot;, tags = c(&amp;quot;Tag1&amp;quot;, &amp;quot;Tag2&amp;quot;), author = &amp;quot;Your Name)</description>
-    </item>
-    
-    <item>
-      <title>Testing New Post</title>
-      <link>/post/2020-06-16-testing-new-post/</link>
-      <pubDate>Tue, 16 Jun 2020 16:07:23 +0800</pubDate>
-      
-      <guid>/post/2020-06-16-testing-new-post/</guid>
-      <description>Does this work as content?
-par(mar = c(0, 1, 0, 1))pie(c(280, 60, 20),c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),init.angle = -50, border = NA)Figure 1: A fancy pie chart.{&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[4910.416756,3008.647355,1029.161251,3214.857818,743.3870368,556.1032651,1783.432873,1109.374338,1133.98495,1172.603047,795.757282,3259.178978,2517.736547,3081.761022,2785.493582,958.5668124,505.7538077,556.8083834,21745.57328,884.7552507,993.2239571,874.6858643,764.7259628,1267.613204,745.3695408,640.3224383,21951.21176,1544.228586,663.2236766,686.3952693,1497.492223,3710.982963,2370.619976,502.3197334,3876.485958,808.8970728,1981.951806,4319.804067,670.0806011,1737.561657,1561.769116,1348.285159,1450.992513,8028.651439,2202.988423,3781.410618,962.4922932,1532.776998,3120.876811,843.7331372,1588.688299,685.5876821],&#34;y&#34;:[58.014,39.483,49.19,59.319,46.137,45.91,49.355,46.775,47.383,50.939,47.804,55.625,52.374,46.519,53.319,42.024,44.535,44.51,52.79,41.842,51.756,40.762,37.465,56.155,52.208,43.764,57.442,46.881,43.767,41.714,50.852,64.93,55.73,42.495,56.437,41.291,44.514,67.064,45,58.55,48.879,36.788,41.974,55.527,47.8,52.537,49.919,52.887,59.837,50.35,51.386,57.674],&#34;text&#34;:[&#34;gdpPercap: 4910.4168
-lifeExp: 58.01400
-pop: 17152804
-continent: Africa&#34;,&#34;gdpPercap: 3008.6474
-lifeExp: 39.48300
-pop: 6162675
-continent: Africa&#34;,&#34;gdpPercap: 1029.1613
-lifeExp: 49.19000</description>
-    </item>
-    
-    <item>
       <title>Markdown Syntax Guide</title>
       <link>/blog/markdown-syntax-guide/</link>
       <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>

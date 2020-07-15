@@ -43,31 +43,6 @@
   </url>
   
   <url>
-    <loc>/tags/post/</loc>
-    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/testing/</loc>
-    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/this-post-will-be-abandoned-soon/</loc>
-    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2020-06-16-testing-new-post/</loc>
-    <lastmod>2020-06-16T16:07:23+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/css/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
