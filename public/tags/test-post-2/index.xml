@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test post 2 on Codex</title>
+    <link>/tags/test-post-2/</link>
+    <description>Recent content in Test post 2 on Codex</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/test-post-2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Trying another post to the blog</title>
+      <link>/post/trying-another-post-to-the-blog/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/trying-another-post-to-the-blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

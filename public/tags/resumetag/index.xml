@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>resumetag on Anthea Piong</title>
+    <link>/tags/resumetag/</link>
+    <description>Recent content in resumetag on Anthea Piong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/resumetag/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Resume</title>
+      <link>/resume/2020-06-15-r-resume/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/2020-06-15-r-resume/</guid>
+      <description>Personal StatementI am a young professional interested in cultivating a career at the intersection of data and design in international development. I have experience working in agriculture in West Africa, but I am open to other sectors or regions. I specialise in cleaning, analysing, simplifying, and visualising data to bridge communication gaps, aiming to encourage evidence-based decision-making and improve programmes.
+ExperienceWarc Africa Freetown, Sierra LeoneMonitoring &amp;amp; Evaluation Manager Aug 2018 - Apr 2020Princeton in Africa Fellow for 2018-19 (Aug 2018-Jul 2019).</description>
+    </item>
+    
+  </channel>
+</rss>

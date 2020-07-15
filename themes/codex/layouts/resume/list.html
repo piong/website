@@ -1,0 +1,39 @@
+{{ define "stylesheets" }}
+<link rel="stylesheet" href="/css/resume.css" /> 
+{{ end }}
+
+{{ define "main" }}
+<div class="row">
+  <div class="column1">
+    <div class="splash-container">
+      <div class="splash">
+        <h1>
+          My resume <span class="fancy">:</span>
+        </h1>
+        {{ range .Pages }}
+        <span class="handle">{{ .Params.subheading }}</span>
+        {{ end }}
+        {{ partial "social-icons.html" .}}
+      </div>
+    </div>
+  </div>  
+  <div class="column2">
+    <div class="post-list">
+      {{ range .Pages }}
+        <!-- <header class="post__header">-->
+          <!--<h2>{{ .Title }}</h2>-->
+        <!--  <a href="{{.RelPermalink}}">{{ .Title }}</a> -->
+        <!-- </header> -->
+        <div class="post">
+          <!-- <article class="post__content"> -->
+            {{ .Content }}
+          <!-- </article> -->
+        </div>
+      {{ partial "tags.html" .}}
+      {{ end }}
+    </div>
+  </div>
+</div>  
+
+
+{{ end }}

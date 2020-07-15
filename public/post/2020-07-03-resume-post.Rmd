@@ -1,0 +1,12 @@
+---
+title: Resume post
+author: ~
+date: '2020-07-03'
+slug: resume-post
+categories: []
+tags:
+  - Tag1
+  - Tag2
+description: ''
+keywords: []
+---

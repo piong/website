@@ -1,0 +1,44 @@
+# OVERRIDE #
+
+languageCode = "en-us"
+title = "Codex"
+baseURL = "https://piong.netlify.app/"
+copyright = "© {year}"
+
+# OVERRIDE #
+
+[params]
+  # This will show the twitter icon which will link to twitter.com/your-twitter-handle
+  # You can omit the @ symbol
+  # twitter = "your-twitter-handle"
+  # This will show the github icon which will link to github.com/your-github-handle
+  # You can omit the @ symbol
+  github = "piong"
+  linkedin = "piong"
+  
+# DONT OVERRIDE #
+
+[[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "About"
+    url = "/"
+
+[[menu.main]]
+    identifier = "blog"
+    name = "blog"
+    title = "Blog"
+    url = "/blog"
+
+[[menu.main]]
+    identifier = "resume"
+    name = "resume"
+    title = "resume"
+    url = "/resume"
+
+preserveTaxonomyNames = true
+
+[taxonomies]
+  tag = "tags"
+
+# DONT OVERRIDE #

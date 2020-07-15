@@ -1,0 +1,35 @@
+---
+title: "Testing New Post"
+description: ""
+date: 2020-06-18T16:07:23+08:00
+keywords: []
+draft: false
+---
+
+Does this work as content?
+
+```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
+par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
+  col = c('#0292D8', '#F7EA39', '#C4B632'),
+  init.angle = -50, border = NA
+)
+```
+
+
+
+```{r echo = FALSE, message = FALSE}
+library(ggplot2)
+library(plotly)
+library(gapminder)
+
+p <- gapminder %>%
+  filter(year==1977) %>%
+  ggplot( aes(gdpPercap, lifeExp, size = pop, color=continent)) +
+  geom_point() +
+  theme_bw()
+
+ggplotly(p)
+```

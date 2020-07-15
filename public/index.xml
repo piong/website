@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anthea Piong</title>
+    <link>/</link>
+    <description>Recent content on Anthea Piong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jul 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Resume</title>
+      <link>/resume/2020-06-15-r-resume/</link>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/2020-06-15-r-resume/</guid>
+      <description>Personal StatementI am a young professional interested in cultivating a career at the intersection of data and design in international development. I have experience working in agriculture in West Africa, but I am open to other sectors or regions. I specialise in cleaning, analysing, simplifying, and visualising data to bridge communication gaps, aiming to encourage evidence-based decision-making and improve programmes.
+ExperienceWarc Africa Freetown, Sierra LeoneMonitoring &amp;amp; Evaluation Manager Aug 2018 - Apr 2020Princeton in Africa Fellow for 2018-19 (Aug 2018-Jul 2019).</description>
+    </item>
+    
+    <item>
+      <title>Trying Out Markdown</title>
+      <link>/blog/trying-out-markdown/</link>
+      <pubDate>Thu, 18 Jun 2020 16:16:39 +0800</pubDate>
+      
+      <guid>/blog/trying-out-markdown/</guid>
+      <description>plot(mtcars)</description>
+    </item>
+    
+    <item>
+      <title>New Post Using New Content</title>
+      <link>/blog/new-post-using-new-content/</link>
+      <pubDate>Thu, 18 Jun 2020 16:06:34 +0800</pubDate>
+      
+      <guid>/blog/new-post-using-new-content/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>This Post will be Abandoned Soon</title>
+      <link>/post/this-post-will-be-abandoned-soon/</link>
+      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/this-post-will-be-abandoned-soon/</guid>
+      <description>Trying out a ggplot graph.
+ChickWeight %&amp;gt;% as.data.frame(.) %&amp;gt;%ggplot() +geom_line(aes(Time, weight, color = Chick)) +theme_minimal() +ylim(0,200)To create a new post in blogdown, use this code:
+# new_post(&amp;quot;Title of post&amp;quot;, ext = &amp;quot;.Rmd&amp;quot;, tags = c(&amp;quot;Tag1&amp;quot;, &amp;quot;Tag2&amp;quot;), author = &amp;quot;Your Name)</description>
+    </item>
+    
+    <item>
+      <title>Testing New Post</title>
+      <link>/post/2020-06-16-testing-new-post/</link>
+      <pubDate>Tue, 16 Jun 2020 16:07:23 +0800</pubDate>
+      
+      <guid>/post/2020-06-16-testing-new-post/</guid>
+      <description>Does this work as content?
+par(mar = c(0, 1, 0, 1))pie(c(280, 60, 20),c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),init.angle = -50, border = NA)Figure 1: A fancy pie chart.{&#34;x&#34;:{&#34;data&#34;:[{&#34;x&#34;:[4910.416756,3008.647355,1029.161251,3214.857818,743.3870368,556.1032651,1783.432873,1109.374338,1133.98495,1172.603047,795.757282,3259.178978,2517.736547,3081.761022,2785.493582,958.5668124,505.7538077,556.8083834,21745.57328,884.7552507,993.2239571,874.6858643,764.7259628,1267.613204,745.3695408,640.3224383,21951.21176,1544.228586,663.2236766,686.3952693,1497.492223,3710.982963,2370.619976,502.3197334,3876.485958,808.8970728,1981.951806,4319.804067,670.0806011,1737.561657,1561.769116,1348.285159,1450.992513,8028.651439,2202.988423,3781.410618,962.4922932,1532.776998,3120.876811,843.7331372,1588.688299,685.5876821],&#34;y&#34;:[58.014,39.483,49.19,59.319,46.137,45.91,49.355,46.775,47.383,50.939,47.804,55.625,52.374,46.519,53.319,42.024,44.535,44.51,52.79,41.842,51.756,40.762,37.465,56.155,52.208,43.764,57.442,46.881,43.767,41.714,50.852,64.93,55.73,42.495,56.437,41.291,44.514,67.064,45,58.55,48.879,36.788,41.974,55.527,47.8,52.537,49.919,52.887,59.837,50.35,51.386,57.674],&#34;text&#34;:[&#34;gdpPercap: 4910.4168
+lifeExp: 58.01400
+pop: 17152804
+continent: Africa&#34;,&#34;gdpPercap: 3008.6474
+lifeExp: 39.48300
+pop: 6162675
+continent: Africa&#34;,&#34;gdpPercap: 1029.1613
+lifeExp: 49.19000</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>/blog/markdown-syntax-guide/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/markdown-syntax-guide/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>/blog/math-typesetting/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>/blog/rich-text/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/rich-text/</guid>
+      <description>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
+Instagram Simple Shortcode .__h_instagram.card { font-family: -apple-system,BlinkMacSystemFont,&#34;Segoe UI&#34;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&#34;Helvetica Neue&#34;,sans-serif; font-size: 14px; border: 1px solid rgb(219, 219, 219); padding: 0; margin-top: 30px; } .__h_instagram.card .card-header, .__h_instagram.card .card-body { padding: 10px 10px 10px; } .__h_instagram.card img { width: 100%; height: auto; }  koloot.</description>
+    </item>
+    
+    <item>
+      <title>Welcome To Codex</title>
+      <link>/blog/example-post/</link>
+      <pubDate>Thu, 04 Jun 2020 09:19:29 -0400</pubDate>
+      
+      <guid>/blog/example-post/</guid>
+      <description>The standard Lorem Ipsum passage &amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/blog/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/blog/2015-07-23-r-rmarkdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

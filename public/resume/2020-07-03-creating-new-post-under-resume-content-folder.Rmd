@@ -1,0 +1,12 @@
+---
+title: Creating new post under resume content folder
+author: ~
+date: '2020-07-03'
+slug: creating-new-post-under-resume-content-folder
+categories: []
+tags: []
+description: ''
+keywords: []
+---
+
+Some sample content for the new post created on Jul 3.

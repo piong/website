@@ -1,0 +1,12 @@
+---
+title: "Trying Out Markdown"
+description: ""
+date: 2020-06-18T16:16:39+08:00
+keywords: []
+draft: true
+---
+
+```{r}
+plot(mtcars)
+
+```

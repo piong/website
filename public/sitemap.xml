@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resume/2020-06-15-r-resume/</loc>
+    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resume/</loc>
+    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/resumetag/</loc>
+    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2020-06-18T16:16:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/trying-out-markdown/</loc>
+    <lastmod>2020-06-18T16:16:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/new-post-using-new-content/</loc>
+    <lastmod>2020-06-18T16:06:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/post/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/testing/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/this-post-will-be-abandoned-soon/</loc>
+    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020-06-16-testing-new-post/</loc>
+    <lastmod>2020-06-16T16:07:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/css/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/html/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/markdown/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/markdown-syntax-guide/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/math/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/math-typesetting/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/rich-text/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/shortcodes/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/themes/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hugo/</loc>
+    <lastmod>2020-06-04T09:19:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/example-post/</loc>
+    <lastmod>2020-06-04T09:19:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2015-07-23-r-rmarkdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/plot/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/r-markdown/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/regression/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/resume/</loc>
+  </url>
+  
+</urlset>

@@ -1,0 +1,122 @@
+---
+title: "My Resume"
+subheading: "Updated June 2020"
+author: "Anthea"
+date: '2021-07-10'
+output:
+categories: R
+tags:
+- resumetag
+---
+<article class="post__content">
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+## Personal Statement
+
+I am a young professional interested in cultivating a career at the intersection of data and design in international development. I have experience working in agriculture in West Africa, but I am open to other sectors or regions. I specialise in cleaning, analysing, simplifying, and visualising data to bridge communication gaps, aiming to encourage evidence-based decision-making and improve programmes. 
+
+## Experience
+**Warc Africa** [**Freetown, Sierra Leone**]{style="float:right"}
+<button class="collapsible">*Monitoring & Evaluation Manager* [Aug 2018 - Apr 2020]{style="float:right"}</button>
+  <div class="content">
+* Princeton in Africa Fellow for 2018-19 (Aug 2018-Jul 2019).
+* Planned, designed, and led internal and external M&E projects for Warc's Consulting and Production arms, surveying over 1,500 rural agrarian households across multiple projects in Sierra Leone and Ghana.
+* Led all parts of the M&E process, from survey design and programming, to enumerator management, data collection and analysis, and producing high-quality reports containing data visualisations and key findings.
+* Lead Data Analyst on a DFID-funded project for Freetown City Council, producing daily reports for monitoring data collection quality by 140 enumerators on 190,000 property assessments throughout Freetown.   
+* Designed an M&E framework for a GIZ-funded agroforestry project for smallholder farmers in rural Ghana.
+* Tools used include: ODK Collect, R, R Markdown, Adobe Indesign, Adobe Illustrator, QGIS </div>
+
+
+
+**Data Visualisation Assistant -- Jon Schwabish, Ph.D** [**Remote**]{style="float:right"}
+<button class="collapsible">*Freelancer* [*Oct 2018 (Intermittent)*]{style="float:right"}</button>
+  <div class="content">
+<p>
+* Produced advanced data visualisations and scripts (mainly in R ggplot2) for a leading expert of data visualisation. </p></div>
+
+
+
+**Crow Insight, LLC** [**Washington, DC.**]{style="float:right"}
+<button class="collapsible">*Senior Analyst* [*(Part-time Oct 2015--May 2016), Oct 2016--Jun 2018*]{style="float:right"}</button>
+  <div class="content">
+<p>
+* Analyzed data and designed data visualisations (infographics, dashboards, reports) to amplify data-driven mes-
+saging for non-profit and U.S. government clients.
+* Managed a small development team in building a suite of D3 dashboards (NLA, NCCA) for the U.S. EPA's Office
+of Water; carried out data modelling ETL in R on the large datasets feeding the final dashboard products.
+Burness Communications Bethesda, MD
+Senior Coordinator for Special Projects (Interned Summer 2014), Jun 2015 { Sep 2016
+* Worked with Burness' president to widen outreach of the Rockefeller Foundation's Bellagio Fellowship program.
+* Provided digital and design support: produced over 30 case files showcasing Burness' client work; managed com-
+pany and client website content in Wordpress; produced graphics for social media campaigns.
+Good Shepherd Housing, Inc. Washington, D.C.
+Consultant - MPP Final Year Capstone Aug 2014 { May 2015
+* Presented a 60-page evaluation framework report to the board, making recommendations on data collection
+methods (survey design, data encoding) and data analysis (descriptive statistics, multiple regression) in STATA.
+The Aspen Institute { Aspen Planning and Evaluation Program (APEP) Washington, D.C.
+Research and Impact Evaluation Coordinator Sep 2014 { May 2015
+* Created a dynamic Excel dashboard that optimized data entry and visualisation to inform policymaking. </p></div>
+
+
+
+**Burness Communications** [**Bethesda, MD**]{style="float:right"}
+<button class="collapsible">*Senior Coordinator for Special Projects* [*(Interned Summer 2014), Jun 2015--Sep 2016*]</button>
+  <div class="content">
+<p>
+* Worked with Burness' president to widen outreach of the Rockefeller Foundation's Bellagio Fellowship program.
+* Provided digital and design support: produced over 30 case files showcasing Burness' client work; managed com-
+pany and client website content in Wordpress; produced graphics for social media campaigns.</p></div>
+
+
+
+**Good Shepherd Housing, Inc.** [**Washington, D.C.**]{style="float:right"}
+<button class="collapsible">*Consultant - MPP Final Year Capstone* [*Aug 2014--May 2015*]{style="float:right"}</button>
+  <div class="content">
+<p>
+* Presented a 60-page evaluation framework report to the board, making recommendations on data collection
+methods (survey design, data encoding) and data analysis (descriptive statistics, multiple regression) in STATA.</p></div>
+
+
+
+
+**The Aspen Institute--Aspen Planning and Evaluation Program (APEP)** [**Washington, D.C.**]{style="float:right"}
+<button class="collapsible">*Research and Impact Evaluation Coordinator* [*Sep2014--May 2015*]{style="float:right"}</button>
+  <div class="content">
+<p>
+* Created a dynamic Excel dashboard that optimized data entry and visualisation to inform policymaking. </p></div>
+
+
+
+
+
+
+## Education
+
+**Georgetown University, McCourt School of Public Policy** [**Washington, D.C.**]{style="float:right"}
+<button class="collapsible">*Master of Public Policy* [*May 2015*]{style="float:right"}</button>
+  <div class="content">
+    <p> McCourt Merit-Based Scholarship </p> 
+  </div>
+
+
+**University of Washington** [**Seattle, WA**]{style="float:right"}
+<button class="collapsible">*BA English Literature (Hons); BA Philosophy (Hons); Minor in Latin* [*Jul 2013*]{style="float:right"}</button>
+<div class="content">
+<p> Singapore Club President, Sigma Tau Delta English Honorary Society, Annual Dean's List <br>
+
+**Oxford University** [**Oxford, England**]{style="float:right"}
+
+*Shakespeare, Philosophy of Language* [*Summer 2012*]{style="float:right"}</p>
+</div>
+
+<h2>Skills</h2>
+<p>Language: English (Native proficiency); Chinese-Mandarin (Professional proficiency)
+Technical: Advanced: R (R Markdown, ggplot2); Excel; Adobe Illustrator, InDesign; ODK Collect
+            Intermediate: STATA; Tableau; Wordpress; QGIS; PostgreSQL; SurveyCTO; LATEX
+
+Working knowledge of: SQL; HTML, CSS; Python </p>
+
+</article>

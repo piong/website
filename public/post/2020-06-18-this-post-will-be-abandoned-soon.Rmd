@@ -1,0 +1,34 @@
+---
+title: This Post will be Abandoned Soon
+author: Anthea
+date: '2020-06-18'
+slug: this-post-will-be-abandoned-soon
+categories: []
+tags:
+  - Testing
+  - Post
+description: ''
+keywords: []
+---
+
+Trying out a ggplot graph.
+
+```{r echo = FALSE, message = FALSE}
+library(tidyverse)
+```
+
+```{r, message = FALSE, warning = FALSE}
+ChickWeight %>% as.data.frame(.) %>%
+  ggplot() +
+  geom_line(aes(Time, weight, color = Chick)) +
+  theme_minimal() +
+  ylim(0,200)
+```
+
+
+To create a new post in blogdown, use this code:
+
+```{r}
+# new_post("Title of post", ext = ".Rmd", tags = c("Tag1", "Tag2"), author = "Your Name)
+```
+
