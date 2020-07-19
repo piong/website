@@ -1,0 +1,34 @@
+source,target,value,IDsource,IDtarget,name
+Word,Copy,1,0,7,CtrlV or RightClick
+Excel,Copy,1,1,7,Test value 1
+Powerpoint,Copy,1,2,7,Test value 2
+Word,SaveAs,1,0,8,Test value 3
+Excel,SaveAs,1,1,8,Test value 4
+Powerpoint,SaveAs,1,2,8,Test value 5
+R_Stata,Copy,1,3,7,Test value 6
+R_Stata,SaveAs,1,3,8,Test value 7
+Website,Copy,1,4,7,Test value 8
+Website,SaveAs,1,4,8,Test value 9
+Website,SnippingTool,1,4,9,Test value 10
+PDF,SnippingTool,1,5,9,Test value 11
+Design_Tool,SaveAs,1,6,8,Test value 12
+Copy,Paste Excel Object,1,7,10,Test value 13
+Copy,Paste Image,1,7,11,Test value 14
+SaveAs,Insert,1,8,12,Test value 15
+Paste Excel Object,Word,1,10,13,Test value 16
+Paste Excel Object,Excel,1,10,14,Test value 17
+Paste Excel Object,Powerpoint,1,10,15,Test value 18
+Paste Image,Word,1,11,13,Test value 19
+Paste Image,Excel,1,11,14,Test value 20
+Paste Image,Powerpoint,1,11,15,Test value 21
+Paste Excel Object,Design_Tool,1,10,16,Test value 22
+Insert,Design_Tool,1,12,16,Test value 23
+Insert,Website,1,12,17,Test value 24
+Word,PDF,1,13,18,Test value 25
+Excel,PDF,1,14,18,Test value 26
+Powerpoint,PDF,1,15,18,Test value 27
+Word,Print,1,13,19,Test value 28
+Excel,Print,1,14,19,Test value 29
+Powerpoint,Print,1,15,19,Test value 30
+Design_Tool,PDF,1,16,18,Test value 31
+Design_Tool,Print,1,16,19,Test value 32

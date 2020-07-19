@@ -6,10 +6,20 @@
     <description>Recent content in R Markdown on Anthea Piong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Image Quality Sankey</title>
+      <link>/blog/2020-07-19-sankey-image-quality/</link>
+      <pubDate>Sun, 19 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2020-07-19-sankey-image-quality/</guid>
+      <description># Librarylibrary(networkD3)library(dplyr)library(tibble)library(tidyverse)Sankey chart on process from creating a chart image to saving outputlinks4 &amp;lt;- read.csv(&amp;quot;../../data/2020-07-19-links.csv&amp;quot;)nodes4 &amp;lt;- read.csv(&amp;quot;../../data/2020-07-19-nodes.csv&amp;quot;)Creating the chart
+r &amp;lt;- sankeyNetwork(Links = links4, Nodes = nodes4,Source = &amp;quot;IDsource&amp;quot;,Target = &amp;quot;IDtarget&amp;quot;,Value = &amp;quot;value&amp;quot;, NodeID = &amp;quot;name&amp;quot;,sinksRight=FALSE)# add the names back into the links data because sankeyNetwork strips it outr$x$links$name &amp;lt;- links4$name# add onRender JavaScript to set the title to the value of &amp;#39;name&amp;#39; for each linkr &amp;lt;- htmlwidgets::onRender(r,&amp;#39;function(el, x) {d3.</description>
+    </item>
     
     <item>
       <title>Hello R Markdown</title>

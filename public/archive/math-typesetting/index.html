@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+
+  <title>Math Typesetting</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="A brief guide to setup KaTeX">
+  <meta name="keywords" content="gohugo , hugo , go , blog">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="8cyiY374WL2LGr87fBghcdJCRx6BaPNBvLjeZlk6tyc" />
+
+  
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+  
+<link rel="stylesheet" href="/css/post.css" /> 
+
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    { 
+      "@context": "http://schema.org", 
+      "@type": "WebSite", 
+      "url": "\/archive\/math-typesetting\/",
+      "name": "Math Typesetting",
+      "author": {
+        "@type": "Person",
+        "name": ""
+      },
+      "description": "A brief guide to setup KaTeX"
+    }
+  
+  </script>
+
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" role="navigation">
+  <ul class="nav__list">
+     
+    
+      <li>
+        
+        <a  href="/">about</a>
+      </li>
+    
+      <li>
+        
+        <a  href="/blog">blog</a>
+      </li>
+    
+      <li>
+        
+        <a  href="/resume">resume</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+
+<div class="single__container">
+  <p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
+<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
+<ul>
+<li>Create a partial under <code>/layouts/partials/math.html</code></li>
+<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
+<li>Include the partial in your templates like so:</li>
+</ul>
+<pre><code>{{ if or .Params.math .Site.Params.math }}
+{{ partial &quot;math.html&quot; . }}
+{{ end }}
+</code></pre><ul>
+<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
+<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files.</li>
+</ul>
+<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a>
+</p>
+<h3 id="examples">Examples</h3>
+<p>Inline math: $$ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $$</p>
+<p>Block math:</p>
+<p>$$
+\sigma(t) = \cfrac{1}{1 + e^{-t}}
+$$</p>
+</div>
+
+<div class="social-icons">
+  
+  
+  <a class="social-icons__icon social-icons__icon--github" href="https://github.com/piong"></a>
+  
+  
+  <a class="social-icons__icon social-icons__icon--linkedin" href="https://linkedin.com/in/piong"></a>
+  
+</div>
+ 
+
+
+  </main>
+
+   
+
+  <script src="/js/index.js"></script>
+   
+</body>
+
+</html>

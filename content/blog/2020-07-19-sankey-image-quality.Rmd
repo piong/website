@@ -1,0 +1,177 @@
+---
+title: "Image Quality Sankey"
+author: "Anthea"
+date: 2020-07-19
+categories: ["R"]
+tags: ["R Markdown", "plot"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r warning=FALSE, message=FALSE}
+# Library
+library(networkD3)
+library(dplyr)
+library(tibble)
+library(tidyverse)
+```
+ 
+```{r include=FALSE} 
+# Create an incidence matrix. Usually the flow goes from the row names to the column names.
+# Remember that our connection are directed since we are working with a flow.
+set.seed(1)
+data <- matrix(sample( seq(0,40), 49, replace=T ), 7, 7)
+data[data < 35] <- 0
+colnames(data) = rownames(data) = c("group_A", "group_B", "group_C", "group_D", "group_E", "group_F", "group_G")
+
+# Transform it to connection data frame with tidyr from the tidyverse:
+links <- data %>% 
+  as.data.frame() %>% 
+  rownames_to_column(var="source") %>% 
+  gather(key="target", value="value", -1) %>%
+  filter(value != 0)
+ 
+# From these flows we need to create a node data frame: it lists every entities involved in the flow
+nodes <- data.frame(
+  name=c(as.character(links$source), as.character(links$target)) %>% 
+    unique()
+  )
+ 
+# With networkD3, connection must be provided using id, not using real name like in the links dataframe.. So we need to reformat it.
+links$IDsource <- match(links$source, nodes$name)-1 
+links$IDtarget <- match(links$target, nodes$name)-1
+ 
+# Make the Network
+p <- sankeyNetwork(Links = links, Nodes = nodes,
+                     Source = "IDsource", Target = "IDtarget",
+                     Value = "value", NodeID = "name", 
+                     sinksRight=FALSE)
+
+p
+
+# save the widget
+# library(htmlwidgets)
+# saveWidget(p, file=paste0( getwd(), "/HtmlWidget/sankeyBasic2.html"))
+```
+
+
+
+```{r include=FALSE}
+# Create an incidence matrix. Usually the flow goes from the row names to the column names.
+# Remember that our connection are directed since we are working with a flow.
+set.seed(1)
+data2 <- matrix(sample( seq(0,40), 36, replace=T ), 6, 6)
+data2[data2 < 35] <- 0
+colnames(data2) = rownames(data2) = c("word", "excel", "powerpoint", "r_stata", "website_pdf", "design_tool")
+
+# Transform it to connection data frame with tidyr from the tidyverse:
+links2 <- data2 %>% 
+  as.data.frame() %>% 
+  rownames_to_column(var="source") %>% 
+  gather(key="target", value="value", -1) %>%
+  filter(value != 0)
+ 
+# From these flows we need to create a node data frame: it lists every entities involved in the flow
+nodes2 <- data.frame(
+  name=c(as.character(links2$source), as.character(links2$target)) %>% 
+    unique()
+  )
+ 
+# With networkD3, connection must be provided using id, not using real name like in the links dataframe.. So we need to reformat it.
+links2$IDsource <- match(links2$source, nodes2$name)-1 
+links2$IDtarget <- match(links2$target, nodes2$name)-1
+ 
+# Make the Network
+q <- sankeyNetwork(Links = links2, Nodes = nodes2,
+                     Source = "IDsource", Target = "IDtarget",
+                     Value = "value", NodeID = "name", 
+                     sinksRight=FALSE)
+
+q
+
+# save the widget
+# library(htmlwidgets)
+# saveWidget(p, file=paste0( getwd(), "/HtmlWidget/sankeyBasic2.html"))
+```
+
+
+```{r include=FALSE}
+links3 <- data.frame(
+  src = c(0, 0, 1, 2),
+  target = c(2, 3, 2, 4),
+  value = 1,
+  name = c("first", "second", "third", "fourth")
+)
+
+nodes3 <- data.frame(name = c("one", "two", "three", "four", "five"))
+
+# save the result of sankeyNetwork in an object
+sn <- networkD3::sankeyNetwork(
+  Links = links3,
+  Nodes = nodes3,
+  Source = 'src',
+  Target = 'target',
+  Value = 'value',
+  NodeID = 'name'
+)
+
+# add the names back into the links data because sankeyNetwork strips it out
+sn$x$links$name <- links3$name
+
+# add onRender JavaScript to set the title to the value of 'name' for each link
+sn <- htmlwidgets::onRender(
+  sn,
+  '
+  function(el, x) {
+  d3.selectAll(".link").select("title")
+  .text(function(d) { return d.name; });
+  }
+  '
+)
+
+sn
+```
+
+
+# Sankey chart on process from creating a chart image to saving output
+
+```{r}
+links4 <- read.csv("../../data/2020-07-19-links.csv")
+nodes4 <- read.csv("../../data/2020-07-19-nodes.csv")
+```
+
+Creating the chart
+
+
+```{r}
+r <- sankeyNetwork(
+  Links = links4, 
+  Nodes = nodes4,
+  Source = "IDsource",
+  Target = "IDtarget",
+  Value = "value", 
+  NodeID = "name",
+  sinksRight=FALSE
+)
+
+# add the names back into the links data because sankeyNetwork strips it out
+r$x$links$name <- links4$name
+
+# add onRender JavaScript to set the title to the value of 'name' for each link
+r <- htmlwidgets::onRender(
+  r,
+  '
+  function(el, x) {
+  d3.selectAll(".link").select("title")
+  .text(function(d) { return d.name; });
+  }
+  '
+)
+
+r
+```
+
