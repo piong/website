@@ -1,9 +1,11 @@
 ---
 title: "Reactive Sankey Chart"
 author: "Anthea"
-date: 2020-07-19
-categories: ["R"]
-tags: ["R Markdown", "plot"]
+date: '2020-07-19'
+categories: R
+tags:
+- R Markdown
+- plot
 ---
 
 ```{r setup, include=FALSE}
