@@ -3,132 +3,107 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/resume/2020-06-15-r-resume/</loc>
-    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/resume/</loc>
-    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/resumetag/</loc>
-    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-07-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/</loc>
+    <loc>https://piong.netlify.app/</loc>
     <lastmod>2020-07-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2020-07-19-sankey-image-quality/</loc>
+    <loc>https://piong.netlify.app/blog/</loc>
     <lastmod>2020-07-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/plot/</loc>
+    <loc>https://piong.netlify.app/blog/2020-07-19-sankey-image-quality/</loc>
     <lastmod>2020-07-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/r-markdown/</loc>
+    <loc>https://piong.netlify.app/tags/plot/</loc>
     <lastmod>2020-07-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/archive/</loc>
-    <lastmod>2020-06-18T16:16:39+08:00</lastmod>
+    <loc>https://piong.netlify.app/tags/r-markdown/</loc>
+    <lastmod>2020-07-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/archive/trying-out-markdown/</loc>
-    <lastmod>2020-06-18T16:16:39+08:00</lastmod>
+    <loc>https://piong.netlify.app/tags/</loc>
+    <lastmod>2020-07-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/archive/new-post-using-new-content/</loc>
-    <lastmod>2020-06-18T16:06:34+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/css/</loc>
+    <loc>https://piong.netlify.app/archive/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/html/</loc>
+    <loc>https://piong.netlify.app/tags/css/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/markdown/</loc>
+    <loc>https://piong.netlify.app/tags/html/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/archive/markdown-syntax-guide/</loc>
+    <loc>https://piong.netlify.app/tags/markdown/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/math/</loc>
+    <loc>https://piong.netlify.app/archive/markdown-syntax-guide/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/archive/math-typesetting/</loc>
+    <loc>https://piong.netlify.app/tags/math/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/archive/rich-text/</loc>
+    <loc>https://piong.netlify.app/archive/math-typesetting/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/shortcodes/</loc>
+    <loc>https://piong.netlify.app/archive/rich-text/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/themes/</loc>
+    <loc>https://piong.netlify.app/tags/shortcodes/</loc>
     <lastmod>2020-06-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/hugo/</loc>
+    <loc>https://piong.netlify.app/tags/themes/</loc>
+    <lastmod>2020-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://piong.netlify.app/tags/hugo/</loc>
     <lastmod>2020-06-04T09:19:29-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/archive/example-post/</loc>
+    <loc>https://piong.netlify.app/archive/example-post/</loc>
     <lastmod>2020-06-04T09:19:29-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2015-07-23-r-rmarkdown/</loc>
+    <loc>https://piong.netlify.app/blog/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/regression/</loc>
+    <loc>https://piong.netlify.app/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/resume/</loc>
+    <loc>https://piong.netlify.app/resume/</loc>
   </url>
   
 </urlset>

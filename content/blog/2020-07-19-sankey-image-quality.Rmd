@@ -1,5 +1,5 @@
 ---
-title: "Image Quality Sankey"
+title: "Reactive Sankey Chart"
 author: "Anthea"
 date: 2020-07-19
 categories: ["R"]
